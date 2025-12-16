@@ -1,0 +1,21 @@
+auditoria-app/
+│
+├── app/
+│   ├── __init__.py
+│   ├── main.py              # App Streamlit
+│   ├── auth.py              # Login básico
+│   ├── validations.py       # Validaciones
+│   ├── mapping.py           # Mapeos / reglas
+│   └── log_auditor.py       # Auditoría y logging
+│
+├── data/
+│   └── audit_demo.json      # Auditoría ficticia
+│
+├── tests/
+│   └── test_validations.py
+│
+├── .gitignore
+├── README.md
+├── requirements.txt
+├── LICENSE
+└── run.sh
